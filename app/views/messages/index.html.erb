@@ -1,3 +1,9 @@
 <div class="messages">
   <%= render @messages %>
 </div>
+<%= form_for Message.new do |f| %>
+  <div class="form-group">
+    <%= f.text_field :body,class: 'form-control', placeholder: "Message" %>
+    <%= f.submit "Send message" , class: 'btn btn-primary'%>
+  </div>
+<% end %>

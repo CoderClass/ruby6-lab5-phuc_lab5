@@ -22,7 +22,7 @@
 ### Milestone 2: support submitting new chat messages.
 
 - [x] Implement `flash_messages` helper in ApplicationHelper and display `<%= flash_messages %>` before `<%= yield %>` in application layout.
-- [ ] Implement a new message form (`form_for Message.new`) before `<div class="messages">...</div>`. Make sure `Messages#create` work as expected.
+- [x] Implement a new message form (`form_for Message.new`) before `<div class="messages">...</div>`. Make sure `Messages#create` work as expected.
 - [ ] Run `rails s -b 0.0.0.0` and get your IP address via `ifconfig | grep broadcast`. Now ask your supervisor to visit your IP, port 3000 (e.g. `192.179.X.X:3000`) and test chatting.
 
 ### Milestone 3: set up client-server WebSocket communication.
